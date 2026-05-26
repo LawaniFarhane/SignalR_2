@@ -53,7 +53,7 @@ export class ChatComponent  {
     });
 
     // TODO: Écouter le message pour quitter un channel (lorsque le channel est effacé)
-
+    
     // On se connecte au Hub
     this.hubConnection
       .start()
